@@ -15,21 +15,32 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #714f85;
+
 }
 
+.YODA1,.YODA2, .YODA3{display: flex;
+flex-direction: column;
+}
+.links{display: flex;
+flex-direction: column;
+align-items: center;
+}
+a {
+  color: whitesmoke;
+}
 
 
 h1 {
   font-family: "SF Distant Galaxy";
 }
 
-
+h1{color: rgb(181, 255, 10);}
 
 /* computer */
 @media screen and (min-width: 600px) {
 
 
-
+.YODA1,.YODA2,.YODA3{justify-content: center; flex-direction: row;
 }
-
+}
