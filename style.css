@@ -19,9 +19,15 @@ body {
 
 }
 
-.YODA1,.YODA2, .YODA3{display: flex;
+.YODA1{display: flex;
 flex-direction: column;
 }
+.YODA2{display: flex;
+flex-direction: column;}
+
+.YODA3{display: flex;
+flex-direction: column;}
+
 .links{display: flex;
 flex-direction: column;
 align-items: center;
@@ -30,7 +36,18 @@ a {
   color: whitesmoke;
 }
 
+.GORGU1{display: flex;
+flex-direction: column;}
 
+.GORGU2{display: flex;
+flex-direction: column;}
+
+.GORGU3{display: flex;
+flex-direction: column;}
+
+.links2{display: flex;
+flex-direction: column;
+align-items: center;}
 h1 {
   font-family: "SF Distant Galaxy";
 }
@@ -44,3 +61,19 @@ h1{color: rgb(181, 255, 10);}
 .YODA1,.YODA2,.YODA3{justify-content: center; flex-direction: row;
 }
 }
+.links{display: flex;
+flex-direction: row;
+justify-content: space-around;}
+
+.GORGU1{display: flex;
+justify-content: center;}
+
+.GORGU2{display: flex;
+justify-content: center;}
+
+.GORGU3{display: flex;
+justify-content: center;}
+
+.links2{display: flex;
+flex-direction: row;
+justify-content: space-around;}
