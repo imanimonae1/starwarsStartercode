@@ -48,6 +48,7 @@ a {
 .links2{display: flex;
 flex-direction: column;
 align-items: center;}
+
 h1 {
   font-family: "SF Distant Galaxy";
 }
@@ -67,10 +68,6 @@ h1{color: rgb(181, 255, 10);}
 flex-direction: row;
 justify-content: space-around;}
 
-.GORGU1,.GORGU2,.GORGU3{display: flex;
-justify-content: center;
-flex-direction: row;}
+.GORGU1,.GORGU2,.GORGU3{justify-content: center;flex-direction: row;}
 
-.links2{display: flex;
-flex-direction: row;
-justify-content: space-around;}
+.links2{display: flex; justify-content: space-between; flex-direction: row;}
