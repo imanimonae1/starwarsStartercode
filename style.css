@@ -45,9 +45,13 @@ justify-content: center;}
 
 nav{display: flex;
 flex-direction: column;
-align-items:center;}
+align-items: center;
+
 
 a:hover{color:rgb(181, 255, 10) ;}
+
+
+}
 
 /* computer */
 @media screen and (min-width: 600px) {
@@ -55,10 +59,13 @@ a:hover{color:rgb(181, 255, 10) ;}
 
 .YODA1,.YODA2,.YODA3{justify-content: center; flex-direction: row;
 }
-}
-
 
 nav{display: flex;
   flex-direction: row;
   justify-content: space-between;}
+
+
+
+
+}
 
